@@ -1,0 +1,12 @@
+domain: cluster.x-k8s.io
+layout:
+- go.kubebuilder.io/v3
+projectName: capa-garbage-collector
+repo: github.com/giantswarm/capa-garbage-collector
+resources:
+- controller: true
+  domain: cluster.x-k8s.io
+  group: infrastructure
+  kind: AwsCluster
+  version: v1beta2
+version: "3"
